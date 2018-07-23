@@ -1,0 +1,64 @@
+h3{
+    text-align: left;
+    line-height: 2;
+}
+
+.systemMsg > div{
+    width: 100%;
+    margin: 2% 0;
+    text-align: left;
+}
+
+
+.systemMsg > div input{
+    border: 1px solid #797979;
+    margin-left: 30px;
+    width: 35%;
+    height: 30px;
+    background: none;
+    padding-left: 3px;
+}
+
+.systemMsg > div:nth-child(2) input{
+    margin-left: 15px!important;
+}
+
+.systemAuthority {
+    background: #F2F2F2;
+    padding: 1% 0 3% 3%;
+}
+
+.ant-checkbox-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-checkbox-group > label:nth-child(1) {
+    width: 100%!important;
+}
+
+.ant-checkbox-group-item{
+    margin-right: 0!important;
+}
+
+.ant-checkbox-group > label {
+    text-align: left;
+    display: inline-block;
+    width: 25%;
+    line-height: 2;
+}
+
+.systemBtns{
+    text-align: right;
+}
+
+.systemBtns .ant-btn{
+    border-color: #797979;
+    margin: 15% 2% 2%;
+}
+
+.systemBtns .ant-btn-primary{
+    width: auto!important;
+}

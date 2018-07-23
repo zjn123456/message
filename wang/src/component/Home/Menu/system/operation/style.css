@@ -1,0 +1,26 @@
+.operationTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.time{
+    flex: 1;
+}
+
+.pers{
+    flex: 2;
+}
+
+.operationTop .ant-input-affix-wrapper {
+    width: 60%!important;
+}
+
+.ant-table table{
+    border: 1px solid #E8E8E8;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    text-align: center;
+}

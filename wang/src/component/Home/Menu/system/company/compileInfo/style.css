@@ -1,0 +1,71 @@
+h2{
+    font-weight: bold;
+    text-align: left;
+}
+
+.companyMsg div{
+    text-align: left;
+    margin: 2% 0;
+}
+
+.companyMsg p{
+    display: inline-block;
+    color:#FF0000;
+    font-size: 12px;
+    margin-left: 28px;
+}
+
+.companyMsg input{
+    width: 30%;
+    border: 1px solid #797979;
+    margin-left: 30px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.companyMsg div:nth-child(5) input{
+    margin-left: 16px;
+}
+
+
+.companyMsg .ant-btn-primary{
+    margin-top: 5%;
+    width: auto!important;
+}
+
+.companyTab {
+    display: flex;
+    justify-content: center;
+}
+
+.companyTab label{
+    flex: 1;
+    margin-top: 5%;
+}
+
+.companyTab .ant-table-wrapper{
+    flex:8;
+}
+
+.companyTab .ant-table{
+    width: 60%!important;
+}
+
+.ant-table table{
+    border: 1px solid #E8E8E8;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    text-align: center;
+}
+
+.companyTab .ant-select-selection--single{
+    background: none!important;
+    border:none!important;
+    text-align: center!important;
+    outline: none!important;
+}
+
+.opt{
+    margin: 0 5px;
+}

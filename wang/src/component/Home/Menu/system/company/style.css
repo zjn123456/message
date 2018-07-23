@@ -1,0 +1,41 @@
+.companyList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companyInfo{
+    flex: 1;
+    background: #F2F2F2;
+    margin: 2%;
+    padding:1%;
+    color:#333;
+}
+
+.companyInfo h3{
+    position: relative;
+}
+
+.companyInfo h3 .anticon-form {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color:#333;
+}
+
+.companyInfo input{
+    border: none;
+    background: none;
+}
+
+.companyInfo h6{
+    text-align: left;
+    font-size: 16px;
+}
+
+.companyInfo p{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 25px;
+}
